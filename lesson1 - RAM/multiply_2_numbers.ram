@@ -1,0 +1,45 @@
+<input> 0 456
+
+; init accumulator
+load =0
+store 1
+
+read 2
+read 3
+
+; handle zeros
+load 2
+jz WriteOutput
+load 3
+jz WriteOutput
+
+; check if the second number is greater than the first one
+load 2
+sub 3
+jgtz AddOneMore
+
+; swap input
+load 3
+add 2
+store 2
+sub 3
+store 3
+load 2
+sub 3
+store 2
+
+AddOneMore:
+load 2
+add 1
+store 1
+
+load 3
+sub =1
+store 3
+
+jgtz AddOneMore
+
+WriteOutput:
+write 1
+
+halt
