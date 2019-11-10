@@ -1,0 +1,46 @@
+
+[ERROR] Unexpected error while reading/writing to the tape
+java.io.IOException: Could not parse numbers 11 and/or
+        at net.sf.emustudio.ram.cpu.impl.EmulatorEngine.arithmetic(EmulatorEngine.java:125)
+        at net.sf.emustudio.ram.cpu.impl.EmulatorEngine.step(EmulatorEngine.java:198)
+        at net.sf.emustudio.ram.cpu.impl.EmulatorImpl.stepInternal(EmulatorImpl.java:175)
+        at net.sf.emustudio.ram.cpu.impl.EmulatorImpl.call(EmulatorImpl.java:157)
+        at net.sf.emustudio.ram.cpu.impl.EmulatorImpl.call(EmulatorImpl.java:52)
+        at java.util.concurrent.FutureTask.run(Unknown Source)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+        at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NumberFormatException: Zero length string
+        at java.lang.Integer.decode(Unknown Source)
+        at net.sf.emustudio.ram.cpu.impl.EmulatorEngine.arithmetic(EmulatorEngine.java:117)
+        ... 8 common frames omitted
+[ERROR] Unexpected error while reading/writing to the tape
+java.io.IOException: Could not parse numbers 11 and/or
+        at net.sf.emustudio.ram.cpu.impl.EmulatorEngine.arithmetic(EmulatorEngine.java:125)
+        at net.sf.emustudio.ram.cpu.impl.EmulatorEngine.step(EmulatorEngine.java:198)
+        at net.sf.emustudio.ram.cpu.impl.EmulatorImpl.stepInternal(EmulatorImpl.java:175)
+        at net.sf.emustudio.ram.cpu.impl.EmulatorImpl.call(EmulatorImpl.java:157)
+        at net.sf.emustudio.ram.cpu.impl.EmulatorImpl.call(EmulatorImpl.java:52)
+        at java.util.concurrent.FutureTask.run(Unknown Source)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+        at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NumberFormatException: Zero length string
+        at java.lang.Integer.decode(Unknown Source)
+        at net.sf.emustudio.ram.cpu.impl.EmulatorEngine.arithmetic(EmulatorEngine.java:117)
+        ... 8 common frames omitted
+[ERROR] Unexpected error while reading/writing to the tape
+java.io.IOException: Could not parse numbers 11 and/or
+        at net.sf.emustudio.ram.cpu.impl.EmulatorEngine.arithmetic(EmulatorEngine.java:125)
+        at net.sf.emustudio.ram.cpu.impl.EmulatorEngine.step(EmulatorEngine.java:198)
+        at net.sf.emustudio.ram.cpu.impl.EmulatorImpl.stepInternal(EmulatorImpl.java:175)
+        at net.sf.emustudio.ram.cpu.impl.EmulatorImpl.call(EmulatorImpl.java:157)
+        at net.sf.emustudio.ram.cpu.impl.EmulatorImpl.call(EmulatorImpl.java:52)
+        at java.util.concurrent.FutureTask.run(Unknown Source)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+        at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NumberFormatException: Zero length string
+        at java.lang.Integer.decode(Unknown Source)
+        at net.sf.emustudio.ram.cpu.impl.EmulatorEngine.arithmetic(EmulatorEngine.java:117)
+        ... 8 common frames omitted
