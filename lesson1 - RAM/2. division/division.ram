@@ -1,14 +1,10 @@
-<input> 123456 0
+<input> 10 3
 read 1
 read 2
 
 ; Result
 load =0
 store 3
-
-; Put 1 to Register 4
-load =1
-store 4
 
 ; Check Divisor Is Not Zero
 load 2
@@ -29,7 +25,7 @@ jmp WriteResult
 SaveAndIncrementResult:
 store 1 ; save adder's state for the next iteration
 load 3
-add 4
+add =1
 store 3
 
 jgtz DoSubtraction
