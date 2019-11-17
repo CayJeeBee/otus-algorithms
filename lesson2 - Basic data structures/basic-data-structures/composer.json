@@ -1,0 +1,20 @@
+{
+    "name": "pavel/basic-data-structures",
+    "description": "Otus Algorithms course homework",
+    "type": "project",
+    "authors": [
+        {
+            "name": "CayJeeBee",
+            "email": "CayJeeBee@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "dekor/php-array-table": "1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "OtusAlgorithms\\": "src/"
+        }
+    }
+}
