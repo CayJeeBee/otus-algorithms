@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 
-namespace OtusAlgorithms\DynamicArray;
+namespace OtusAlgorithms;
 
 
 interface PriorityQueue
